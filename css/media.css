@@ -145,6 +145,10 @@
 }
 
 @media (max-width: 520px) {
+  .article-img {
+    max-width: 320px;
+  }
+
   .footer-wrapper-nav {
     flex-direction: column;
     gap: 40px;
