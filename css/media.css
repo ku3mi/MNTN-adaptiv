@@ -1,0 +1,170 @@
+
+
+@media (max-width: 1500px) {
+   .header {
+      margin-bottom: 355px;
+   }
+}
+
+@media (max-width: 1200px) {
+   .header {
+      margin-bottom: 200px;
+   }
+
+  .hero-title {
+    font-size: 68px;
+  }
+
+  /* Header */
+
+  .article-text::before {
+    width: 140px;
+    height: 140px;
+    font-size: 140px;
+  }
+
+  .article-text {
+    padding-left: 50px;
+    max-width: 50%;
+  }
+
+  .article-img {
+    width: 45%;
+  }
+
+
+  /* Footer */
+
+
+  .footer-wrapper-nav {
+    gap: 100px;
+  }
+
+
+}
+
+
+@media (max-width: 920px) {
+  /* Footer */
+  .footer-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .footer-wrapper-nav {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  /* Header */
+
+  .header {
+    margin-bottom: 100px;
+  }
+
+  .nav,
+  .login {
+    display: none;
+  }
+
+  .container-header {
+    margin-bottom: 90px;
+  }
+
+  .nav-btn {
+    display: block;
+  }
+
+  .mobile-nav-active {
+    display: flex;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-category::before {
+    width: 42px;
+  }
+
+  .hero-category {
+    font-size: 14px;
+    padding-left: 62px;
+  }
+
+  /* Main */
+
+  .article-subtitle {
+    font-size: 44px;
+    line-height: 57px;
+  }
+}
+
+@media (max-width: 720px) {
+  .article {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+
+  .article:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .article-title {
+    font-size: 15px;
+    letter-spacing: 5px;
+    padding-left: 74px;
+  }
+
+  .article-title::before {
+    width: 52px;
+  }
+
+  .article-subtitle {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .article-text {
+    max-width: 100%;
+    padding-left: 15px;
+  }
+
+  .article-text-text{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .article-img {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer-wrapper-nav {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+
+  .footer-nav h2 {
+    font-size: 20px;
+  }
+
+  .footer-link {
+    font-size: 16px;
+  }
+
+  .footer-copyright-text {
+    font-size: 16px;
+    margin-bottom: 80px;
+ }
+
+ .footer-copyright-info {
+  font-size: 14px;
+ }
+}
